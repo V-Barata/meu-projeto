@@ -3,76 +3,93 @@
 <!-- Este é o DTD do HTML 5. -->
 
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Básica</title>
-  </head>
-  <body>
+</head>
+
+<body>
+    <span id="topo" </span>
     <div class="container">
-      <header class="cabecalho">
-        <h1 style="text-align: center; border: solid 2px #ff0000">
-          Minha Página
-        </h1>
+        <header class="cabecalho">
+            <h1 style="text-align: center; border: solid 2px #ff0000">
+                Minha Página
+            </h1>
 
-        <nav>
-          <ul>
-            <li><a href="./paginas/help.html">  <img src="./img/help.png" alt="Interrogação" width="2%"> </a></li>
-            <li><a href="./paginas/about.html"> <img src="./img/info.png" alt="I" width="2%" ></a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      
-      </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./paginas/help.html"> <img src="./img/help.png" alt="Interrogação" width="2%"> </a>
+                    </li>
+                    <li>
+                        <a href="./paginas/about.html"> <img src="./img/info.png" alt="I" width="2%"></a>
+                    </li>
+                    <li>
+                        <a href="#contact"><img src="./img/contact-form.png" alt="Envelope" width="2%"> </a>
+                    </li>
+                </ul>
+            </nav>
 
-      <section class="conteudo">
-        <div>
-          <h2>HELP</h2>
-          <p>Help - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit error vero asperiores ducimus veniam doloremque? Voluptates earum natus ex, doloremque vero in porro provident voluptatum cupiditate, quibusdam, officiis modi maxime quas dignissimos. Velit quae repellendus magnam nobis commodi adipisci itaque harum quos amet repellat laboriosam, voluptate eos nulla fuga perspiciatis quidem beatae sapiente pariatur maiores? Asperiores totam voluptatum error consequuntur et quisquam architecto! Officiis eius tempora animi! Saepe, alias fuga, ex possimus ipsum distinctio maxime porro doloribus officiis, quidem labore animi! Fugit placeat autem harum suscipit quasi perferendis, quam vero molestias! Sequi corporis ipsa repellat? Et consectetur ducimus tempora.</p>
-          <a href="#">Mais...</a>
-        </div>
-        <div>
-          <h2>ABOUT</h2>
-          <p>About - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sequi fugiat provident repellat aliquam! Qui optio voluptatibus facilis voluptas soluta!</p>
-          <a href="#">Mais...</a>
-        </div>
-        <div>
-          <h2>CONTACT</h2>
-          <form>
-            <fieldset>
-              <legend>Customer Data</legend>
-              <div>
-                <label for="idNm">Nome:</label>
-                <input type="text"  name="txtNm" id="idNm" placeholder="Digite seu nome."/>
-              </div>
-              <div>
-                <label for="idEmail">Email:</label>
-                <input type="email"  name="txtEmail" id="idEmail" placeholder="Digite seu email."/>
-              </div>
-              <div>
-                <button type="button">Send</button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-      </section>
+        </header>
 
-      <footer class="rodape">
-        <nav>
-          <!-- Unordered List-->
-          <ul>
-            <!-- List Item-->
-            <li><a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
-            <li>
-              <a href="https://www.google.com.br" target="_blank">GOOGLE</a>
-            </li>
-            <li><a href="https://github.com" target="_blank">Github</a></li>
-            <!-- List Item-->
-          </ul>
-        </nav>
-        <p>Todos os direitos reservados &copy; - Minha Página 2024</p>
-      </footer>
+        <section class="conteudo">
+            <div>
+                <h2>HELP</h2>
+                <p>Help - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit error vero asperiores ducimus veniam doloremque? Voluptates earum natus ex, doloremque vero in porro provident voluptatum cupiditate, quibusdam, officiis modi
+                    maxime quas dignissimos. Velit quae repellendus magnam nobis commodi adipisci itaque harum quos amet repellat laboriosam, voluptate eos nulla fuga perspiciatis quidem beatae sapiente pariatur maiores? Asperiores totam voluptatum error
+                    consequuntur et quisquam architecto! Officiis eius tempora animi! Saepe, alias fuga, ex possimus ipsum distinctio maxime porro doloribus officiis, quidem labore animi! Fugit placeat autem harum suscipit quasi perferendis, quam vero
+                    molestias! Sequi corporis ipsa repellat? Et consectetur ducimus tempora. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quia error. Doloremque ullam aspernatur consequuntur distinctio blanditiis cumque alias possimus,
+                    hic, totam deserunt libero aliquam. Officia earum doloremque corporis officiis aut commodi accusamus sapiente sint quam dignissimos illo, vitae optio adipisci, corrupti maxime eius magnam facere aspernatur libero eveniet sed non aperiam
+                    ad? Molestias quibusdam eaque possimus tempore, magnam delectus eligendi eius provident illum quisquam inventore expedita nostrum hic praesentium. Laboriosam, at! Voluptate voluptatem iusto exercitationem saepe numquam beatae excepturi
+                    commodi, possimus eligendi nemo adipisci quibusdam id magnam earum quaerat temporibus veniam. Sequi aspernatur atque laudantium adipisci, tempore voluptatem natus? </p>
+                <a href="#">Mais...</a>
+            </div>
+            <div>
+                <h2>ABOUT</h2>
+                <p>About - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sequi fugiat provident repellat aliquam! Qui optio voluptatibus facilis voluptas soluta!</p>
+                <a href="#">Mais...</a>
+            </div>
+            <div id="contact">
+                <h2>CONTACT</h2>
+                <form>
+                    <fieldset>
+                        <legend>Customer Data</legend>
+                        <div>
+                            <label for="idNm">Nome:</label>
+                            <input type="text" name="txtNm" id="idNm" placeholder="Digite seu nome." />
+                        </div>
+                        <div>
+                            <label for="idEmail">Email:</label>
+                            <input type="email" name="txtEmail" id="idEmail" placeholder="Digite seu email." />
+                        </div>
+                        <div>
+                            <button type="button">Send</button>
+                        </div>
+                    </fieldset>
+                    <a href="#topo"> Voltar </a>
+                </form>
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <nav>
+                <!-- Unordered List-->
+                <ul>
+                    <!-- List Item-->
+                    <li><a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
+                    <li>
+                        <a href="https://www.google.com.br" target="_blank">GOOGLE</a>
+                    </li>
+                    <li><a href="https://github.com" target="_blank">Github</a></li>
+                    <!-- List Item-->
+                </ul>
+            </nav>
+            <p>Todos os direitos reservados &copy; - Minha Página 2024</p>
+        </footer>
 
     </div>
-  </body>
+</body>
+
 </html>
